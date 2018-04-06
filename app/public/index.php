@@ -8,6 +8,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="base-pokemon.php">
 </head>
 <body>
 <div class="container">
@@ -50,7 +51,9 @@
                     <img src="https://via.placeholder.com/120x120">
                 </div>
                 <div class="infos-pokemon col-9">
-                    <h4>Nom du pokemon</h4>
+                    <h4><?php
+                        echo$donnees{'nom'};?>
+                    </h4>
                     <div class="description-pokemon">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem dolorem est exercitationem nemo quaerat reiciendis reprehenderit similique totam? Adipisci alias blanditiis deleniti eligendi exercitationem illum ipsum quam, reiciendis. Natus, veniam.</div>
                 </div>
             </div>
@@ -61,7 +64,8 @@
                     <img src="https://via.placeholder.com/120x120">
                 </div>
                 <div class="infos-pokemon col-9">
-                    <h4>Nom du pokemon</h4>
+                    <h4><?php
+                        echo$donnees{'nom'};?></h4>
                     <div class="description-pokemon">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem dolorem est exercitationem nemo quaerat reiciendis reprehenderit similique totam? Adipisci alias blanditiis deleniti eligendi exercitationem illum ipsum quam, reiciendis. Natus, veniam.</div>
                 </div>
             </div>
