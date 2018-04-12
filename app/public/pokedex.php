@@ -11,6 +11,18 @@
     <link rel="stylesheet" href="base-pokemon.php">
 </head>
 <body>
+<?php
+try {
+    $db = new PDO("mysql:host=192.168.95.100;dbname=local;port=4014; charset=utf8",
+        "root",
+        "root");
+} catch (PDOException $exception){
+    echo "Erreur : " . $exception -> getMessage();
+}
+$reponse = $db->query("SELECT * FROM pokemon;");
+$diftype = $db->query(  "SELECT DISTINCT TYPE FROM pokemon;" )
+
+?>
 
 <div class="container">
     <header>
@@ -48,9 +60,27 @@
             <div class="lien-famille"><a href="">Famille 3</a></div>
 
         </div>
-        <div class="accueil">
+        <div class="col-9">
             </br>
+            <!-- bloc pokemon debut -->
+            <?php while ($donnees = $reponse->fetch()) {?>
 
+            <div class="fiche-pokemon row">
+                <div class="photo-pokemon col-3">
+                    <img class="image" src="<?php echo $donnees{'image'}; ?>">
+                </div>
+                <div class="infos-pokemon col-9">
+                    <h4><?php echo $donnees{'id'} . " " . $donnees{'nom'}; ?></h4>
+
+                    <h5 class="<?php echo $donnees{'type1'}?>"><?php echo $donnees{'type1'};?></h5>
+                    <h5 class="<?php echo $donnees{'type2'}?>"><?php echo $donnees{'type2'};?></h5>
+
+                    <div class="description-pokemon">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem dolorem est exercitationem nemo quaerat reiciendis reprehenderit similique totam? Adipisci alias blanditiis deleniti eligendi exercitationem illum ipsum quam, reiciendis. Natus, veniam.</div>
+                </div>
+            </div>
+        </br>
+            <!-- bloc pokemon fin -->
+            <? } ?>
         </div>
     </div>
     <footer>
@@ -62,3 +92,9 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>
+<?php
+
+echo$donnees{'nom'};
+echo"<br>";
+echo$donnees{'nom'};
+echo"<br>";

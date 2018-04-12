@@ -4,3 +4,93 @@ footer {
     margin-top: 20px;
     padding:10px 30px 10px 30px;
 }
+body{
+    background-color: lightpink;
+    height : 100%;
+    width : 100%;
+}
+.brand{
+    height: 70%;
+    width : 70%;
+    align-content: center;
+}
+.header{
+    background-color: coral;
+}
+.bar-brand{
+    background-color: rgba(0, 0, 0, 0.9);
+    width : 100%;
+    height : 70%;
+    align-content: center;
+    align-items: center;
+}
+.logo {
+    height: 10%;
+    width: 10%;
+    align-content: center;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.fiche-pokemon{
+    height: auto;
+    width: auto;
+}
+.image{
+    height : auto;
+    width : 100%;
+}
+
+.Feu {
+    color: red;
+}
+.Plante {
+    color: green;
+}
+.Eau {
+    color: deepskyblue;
+}
+.Poison {
+    color : darkmagenta;
+}
+.Combat {
+    color : saddlebrown;
+}
+.Fée {
+    color : hotpink;
+}
+.Glace {
+    color : cornflowerblue;
+}
+.Normal {
+    color : grey;
+}
+.Acier {
+    color : darkgrey;
+}
+.Vol {
+    color : darkseagreen;
+}
+.Insecte {
+    color : forestgreen;
+}
+.Electrik {
+    color : yellow;
+}
+.Sol {
+    color : sandybrown;
+}
+.Psy{
+    color : purple;
+}
+.Roche {
+    color : coral;
+}
+.Ténèbres {
+    color : rgba(107,35,7,0.82);
+}
+.Spectre {
+    color : rgba(38,19,138,0.82)
+}
+.Dragon {
+    color : darkblue;
+}
