@@ -1,15 +1,3 @@
-<?php
-try {
-    $db = new PDO("mysql:host=192.168.95.100;dbname=local;port=4014; charset=utf8",
-        "root",
-        "root");
-} catch (PDOException $exception){
-    echo "Erreur : " . $exception -> getMessage();
-}
-$reponse = $db->query("SELECT * FROM pokemon;");
-$diftype = $db->query("SELECT DISTINCT type1 FROM pokemon;");
-
-?>
 <!doctype html>
 <html lang="en">
 <head>
@@ -23,6 +11,20 @@ $diftype = $db->query("SELECT DISTINCT type1 FROM pokemon;");
     <link rel="stylesheet" href="base-pokemon.php">
 </head>
 <body>
+<?php
+try {
+    $db = new PDO("mysql:host=192.168.95.100;dbname=local;port=4014; charset=utf8",
+        "root",
+        "root");
+} catch (PDOException $exception){
+    echo "Erreur : " . $exception -> getMessage();
+}
+$reponse = $db->query("SELECT * FROM pokemon;");
+$diftype = $db->query("SELECT DISTINCT type1 FROM pokemon;");
+$type = $db->query("SELECT DISTINCT type1 FROM pokemon;");
+
+?>
+
 <div class="container">
     <header>
         <nav class="navbar navbar-expand-lg">
@@ -54,37 +56,31 @@ $diftype = $db->query("SELECT DISTINCT type1 FROM pokemon;");
     </header>
     <div class="row">
         <div class="col-3">
-            <!-- bloc type gauche debut -->
             <?php while ($donnees = $diftype->fetch()) {?>
-                <div class="<?php echo $donnees{'type1'}?>">
-                    <button class="nav-item">
-                        <a href="<?php echo $donnees{'type1'}?>.php">
-                            <div class="<?php echo $donnees{'type1'}?>"><?php echo $donnees{'type1'}?></div>
-                        </a>
-                    </button>
-                </div>
+                <div class="<?php echo $donnees{'type1'}?>"><a href="index.php"><?php echo $donnees{'type1'}?></a></div>
             <? } ?>
-            <!-- bloc type gauche fin -->
+
         </div>
         <div class="col-9">
             </br>
             <!-- bloc pokemon debut -->
+            <?php echo $_POST["nom"] . $_POST['truc']; ?>
             <?php while ($donnees = $reponse->fetch()) {?>
 
-            <div class="fiche-pokemon row">
-                <div class="photo-pokemon col-3">
-                    <img class="image" src="<?php echo $donnees{'image'}; ?>">
-                </div>
-                <div class="infos-pokemon col-9">
-                    <h4><?php echo $donnees{'id'} . " " . $donnees{'nom'}; ?></h4>
+                <div class="fiche-pokemon row">
+                    <div class="photo-pokemon col-3">
+                        <img class="image" src="<?php echo $donnees{'image'}; ?>">
+                    </div>
+                    <div class="infos-pokemon col-9">
+                        <h4><?php echo $donnees{'id'} . " " . $donnees{'nom'}; ?></h4>
 
-                    <h5 class="<?php echo $donnees{'type1'}?>"><?php echo $donnees{'type1'};?></h5>
-                    <h5 class="<?php echo $donnees{'type2'}?>"><?php echo $donnees{'type2'};?></h5>
+                        <h5 class="<?php echo $donnees{'type1'}?>"><?php echo $donnees{'type1'};?></h5>
+                        <h5 class="<?php echo $donnees{'type2'}?>"><?php echo $donnees{'type2'};?></h5>
 
-                    <div class="description-pokemon">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem dolorem est exercitationem nemo quaerat reiciendis reprehenderit similique totam? Adipisci alias blanditiis deleniti eligendi exercitationem illum ipsum quam, reiciendis. Natus, veniam.</div>
+                        <div class="description-pokemon">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem dolorem est exercitationem nemo quaerat reiciendis reprehenderit similique totam? Adipisci alias blanditiis deleniti eligendi exercitationem illum ipsum quam, reiciendis. Natus, veniam.</div>
+                    </div>
                 </div>
-            </div>
-        </br>
+                </br>
             <? } ?>
             <!-- bloc pokemon fin -->
         </div>
