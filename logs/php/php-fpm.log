@@ -1,0 +1,15 @@
+[06-Apr-2018 07:27:09] NOTICE: fpm is running, pid 14
+[06-Apr-2018 07:27:09] NOTICE: ready to handle connections
+[09-Apr-2018 17:19:31] NOTICE: fpm is running, pid 25
+[09-Apr-2018 17:19:31] NOTICE: ready to handle connections
+[10-Apr-2018 14:18:43] NOTICE: fpm is running, pid 8
+[10-Apr-2018 14:18:43] NOTICE: ready to handle connections
+[10-Apr-2018 15:39:14] NOTICE: fpm is running, pid 29
+[10-Apr-2018 15:39:14] NOTICE: ready to handle connections
+[11-Apr-2018 08:13:57] NOTICE: fpm is running, pid 8
+[11-Apr-2018 08:13:57] NOTICE: ready to handle connections
+[11-Apr-2018 08:45:55] WARNING: [pool www] server reached pm.max_children setting (5), consider raising it
+[11-Apr-2018 09:02:03] NOTICE: fpm is running, pid 29
+[11-Apr-2018 09:02:03] NOTICE: ready to handle connections
+[11-Apr-2018 16:36:46] NOTICE: fpm is running, pid 41
+[11-Apr-2018 16:36:46] NOTICE: ready to handle connections
