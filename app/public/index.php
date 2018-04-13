@@ -40,7 +40,7 @@ $diftype = $db->query("SELECT DISTINCT type1 FROM pokemon;");
                         <a class="nav-link" href="index.php">Accueil<span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Infos</a>
+                        <a class="nav-link" href="informations.php">Infos</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="pokedex.php">Pokédex</a>
@@ -73,7 +73,9 @@ $diftype = $db->query("SELECT DISTINCT type1 FROM pokemon;");
         </div>
         <div class="col-9">
             <div class="paragraphe">
-            </br>
+                </br>
+                <img class="img-index" src="http://image.jeuxvideo.com/medias-md/145267/1452673993-9085-card.png">
+                </br>
             La série de jeux vidéo Pokémon est un ensemble de jeux vidéo de rôle basé sur la franchise japonaise Pokémon. Elle débute le 27 février 1996 au Japon avec la sortie des jeux Pocket Monsters Vert et Rouge. Le duo de jeux y rencontra un tel succès qu'il fut décliné successivement en deux autres versions (version bleue et version jaune), puis traduit à travers le monde. Au total, le duo de jeux se vendit à plus de 31 millions d'exemplaires, ce qui en fit en 1999, la seconde meilleure vente de jeux vidéo. Grâce à ce nombre record de vente, la Pokémania était lancée.
             Tandis que le développeur Game Freak se voyait concevoir Pokémon jusqu'à la seconde génération comprenant Pokémon Or, Argent et Cristal au début des années 2000, l'équipe continua. Dans les jeux principaux sur console portable de Nintendo, Pokémon Rubis, Saphir et Émeraude sorti en 2002, suivi par Pokémon Diamant et Perle en 2006, Pokémon Noir et Blanc en 2010, Pokémon Noir 2 et Blanc 2 en 2012, Pokémon X et Y en 2013, Pokémon Soleil et Lune en 2016 et Pokémon Ultra-Soleil et Ultra-Lune en 2017. Trois rééditions sont également sorties en 2004, 2009 et 2014 et se nomment respectivement Pokémon Rouge Feu et Vert Feuille, Pokémon Or HeartGold et Argent SoulSilver et Pokémon Rubis Oméga et Saphir Alpha.
             Il s'agit de l'une des séries les plus prolifique de tous les temps en termes de vente, s'étant écoulé à plus de 215 millions d'exemplaires en octobre 2010 et en comptant les ventes des versions noire et blanche de la série, sorties fin 2010 au Japon et début 2011 dans le reste du monde.

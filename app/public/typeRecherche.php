@@ -41,7 +41,7 @@ $typeR = $db->query("SELECT DISTINCT * FROM pokemon WHERE type1 = '".$_GET['type
                         <a class="nav-link" href="index.php">Accueil <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Infos</a>
+                        <a class="nav-link" href="informations.php">Infos</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="pokedex.php">Pokédex</a>
@@ -75,7 +75,9 @@ $typeR = $db->query("SELECT DISTINCT * FROM pokemon WHERE type1 = '".$_GET['type
         <div class="col-9">
             </br>
             <!-- bloc pokemon debut -->
-            <?php while ($donneesTypeR = $typeR->fetch()) {?>
+            <?php $compteur = 0;
+            while ($donneesTypeR = $typeR->fetch()) {
+                $compteur++?>
 
                 <div class="fiche-pokemon row">
                     <div class="photo-pokemon col-3">
@@ -90,7 +92,8 @@ $typeR = $db->query("SELECT DISTINCT * FROM pokemon WHERE type1 = '".$_GET['type
                     </div>
                 </br>
             <? } ?>
-            <!-- bloc pokemon fin -->
+            <div class="txt-compteur"><? echo "Il y a au total " . $compteur . " résultat(s)."; ?>
+                <!-- bloc pokemon fin -->
         </div>
     </div>
     <footer>

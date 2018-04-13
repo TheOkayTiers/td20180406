@@ -8,7 +8,6 @@ try {
 }
 $reponse = $db->query("SELECT * FROM pokemon;");
 $diftype = $db->query("SELECT DISTINCT type1 FROM pokemon;");
-
 ?>
 <!doctype html>
 <html lang="en">
@@ -23,6 +22,7 @@ $diftype = $db->query("SELECT DISTINCT type1 FROM pokemon;");
     <link rel="stylesheet" href="base-pokemon.php">
 </head>
 <body>
+
 <div class="container">
     <header>
         <nav class="navbar navbar-expand-lg">
@@ -37,7 +37,7 @@ $diftype = $db->query("SELECT DISTINCT type1 FROM pokemon;");
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item active">
-                        <a class="nav-link" href="index.php">Accueil <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="index.php">Accueil<span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="informations.php">Infos</a>
@@ -63,7 +63,7 @@ $diftype = $db->query("SELECT DISTINCT type1 FROM pokemon;");
             <?php while ($donnees = $diftype->fetch()) {?>
                 <div class="<?php echo $donnees{'type1'}?>">
                     <button class="nav-item">
-                        <a href="<?php echo $donnees{'type1'}?>.php">
+                        <a class="lien" href="typeRecherche.php?type=<?php echo $donnees{'type1'}?>">
                             <div class="<?php echo $donnees{'type1'}?>"><?php echo $donnees{'type1'}?></div>
                         </a>
                     </button>
@@ -72,30 +72,13 @@ $diftype = $db->query("SELECT DISTINCT type1 FROM pokemon;");
             <!-- bloc type gauche fin -->
         </div>
         <div class="col-9">
-            </br>
-            <!-- bloc pokemon debut -->
-            <?php
-            $compteur = 0;
-            while ($donnees = $reponse->fetch()) {
-                $compteur++?>
-            <div class="fiche-pokemon row">
-                <div class="photo-pokemon col-3">
-                    <img class="image" src="<?php echo $donnees{'image'}; ?>">
-                </div>
-                <div class="infos-pokemon col-9">
-                    <h4><?php echo $donnees{'id'} . " " . $donnees{'nom'}; ?></h4>
-
-                    <h5 class="<?php echo $donnees{'type1'}?>"><?php echo $donnees{'type1'};?></h5>
-                    <h5 class="<?php echo $donnees{'type2'}?>"><?php echo $donnees{'type2'};?></h5>
-
-                    <div class="description-pokemon">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem dolorem est exercitationem nemo quaerat reiciendis reprehenderit similique totam? Adipisci alias blanditiis deleniti eligendi exercitationem illum ipsum quam, reiciendis. Natus, veniam.</div>
-                </div>
+            <div class="paragraphe">
+                <img class="img-info" src="http://www.p-pokemon.com/images-pokemon-actualite/pict_9679_1.jpg">
+                </br>
+                </br>
+                Les premiers jeux vidéo Pokémon, Pocket Monsters Vert et Rouge sortent sur Game Boy en 1996, exclusivement au Japon, sous le nom de Pocket Monsters (ポケットモンスター, Poketto Monsutā?). Ils deviennent rapidement très populaires au Japon, se vendant à plus de 10 millions d'exemplaires. Une série animée et un jeu de cartes à collectionner sont alors créés. C'est pendant cette période de succès local que la contraction Pokémon (venant de Poketto Monsutā) devient courante. Deux ans plus tard, les jeux Pokémon Rouge et Bleu sortent aux États-Unis, aux côtés de la série animée, diffusée sur le programme télévisé Kids' WB du CW Television Network, et une version du jeu de cartes à collectionner en anglais. Les versions Rouge et Bleu se vendent très bien, battant tous les records de vente avec plus de 30 millions d'exemplaires. La série, quant à elle, aide la chaîne de télévision à grimper dans les classements, au point que Warner Bros. Pictures sort un long métrage animé au cinéma l'année suivante, en 1999. Avec 163 millions de dollars de recettes, Mewtwo Contre-Attaque est l'anime ayant eu le plus de succès au box-office.
             </div>
-        </br>
-            <? } ?>
-            <!-- bloc pokemon fin -->
-            <div class="txt-compteur"><? echo "Il y a au total " . $compteur . " résultat(s)."; ?>
-            </div>
+        </div>
     </div>
     <footer>
         © 2018 Pokémon. © 1995–2018 Nintendo/Creatures Inc./GAME FREAK inc. Pokémon, les noms des personnages Pokémon, Nintendo 3DS, Nintendo DS, Wii, Wii U et WiiWare sont des marques de Nintendo. Le logo YouTube est une marque de Google Inc. Les autres marques appartiennent à leurs propriétaires respectifs.

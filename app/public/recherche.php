@@ -41,7 +41,7 @@ $recherche = $db->query("SELECT DISTINCT * FROM pokemon WHERE type1 LIKE '%".$_G
                         <a class="nav-link" href="index.php">Accueil <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Infos</a>
+                        <a class="nav-link" href="informations.php">Infos</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="pokedex.php">Pokédex</a>
@@ -75,7 +75,9 @@ $recherche = $db->query("SELECT DISTINCT * FROM pokemon WHERE type1 LIKE '%".$_G
         <div class="col-9">
             </br>
             <!-- bloc pokemon debut -->
-            <?php while ($donneesTypeR = $recherche->fetch()) {?>
+            <?php $compteur = 0;
+            while ($donneesTypeR = $recherche->fetch()) {
+                $compteur++;?>
 
                 <div class="fiche-pokemon row">
                     <div class="photo-pokemon col-3">
@@ -89,7 +91,8 @@ $recherche = $db->query("SELECT DISTINCT * FROM pokemon WHERE type1 LIKE '%".$_G
                     </div>
                     </div>
                 </br>
-            <? } ?>
+            <?}?>
+           <div class="txt-compteur"><? echo "Il y a au total " . $compteur . " résultat(s)."; ?>
             <!-- bloc pokemon fin -->
         </div>
     </div>
