@@ -19,9 +19,9 @@ try {
 } catch (PDOException $exception){
     echo "Erreur : " . $exception -> getMessage();
 }
-$reponse = $db->query("SELECT * FROM pokemon WHERE type1 = 'Glace' OR type2 = 'Glace';");
+$reponse = $db->query("SELECT * FROM pokemon;");
 $diftype = $db->query("SELECT DISTINCT type1 FROM pokemon;");
-
+$recherche = $db->query("SELECT DISTINCT * FROM pokemon WHERE type1 LIKE '%".$_GET['recherche']."%' OR type2 LIKE '%".$_GET['recherche']."%' OR nom LIKE '%".$_GET['recherche']."%' OR id LIKE '%".$_GET['recherche']."%';");
 ?>
 
 <div class="container">
@@ -46,10 +46,15 @@ $diftype = $db->query("SELECT DISTINCT type1 FROM pokemon;");
                     <li class="nav-item">
                         <a class="nav-link" href="pokedex.php">Pokédex</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
-                    </li>
                 </ul>
+                    <div class="recherche">
+                        <form action="recherche.php">
+                            <label for="fname">Votre recherche :</label>
+                            <input type="text" name="recherche" placeholder="Rechercher...">
+                            </br>
+                            <input class="boutonvalider" type="submit" value="Valider">
+                        </form>
+                    </div>
             </div>
         </nav>
     </header>
@@ -59,7 +64,7 @@ $diftype = $db->query("SELECT DISTINCT type1 FROM pokemon;");
             <?php while ($donnees = $diftype->fetch()) {?>
                 <div class="<?php echo $donnees{'type1'}?>">
                     <button class="nav-item">
-                        <a href="<?php echo $donnees{'type1'}?>.php">
+                        <a class="lien" href="typeRecherche.php?type=<?php echo $donnees{'type1'}?>">
                             <div class="<?php echo $donnees{'type1'}?>"><?php echo $donnees{'type1'}?></div>
                         </a>
                     </button>
@@ -70,21 +75,19 @@ $diftype = $db->query("SELECT DISTINCT type1 FROM pokemon;");
         <div class="col-9">
             </br>
             <!-- bloc pokemon debut -->
-            <?php while ($donnees = $reponse->fetch()) {?>
+            <?php while ($donneesTypeR = $recherche->fetch()) {?>
 
                 <div class="fiche-pokemon row">
                     <div class="photo-pokemon col-3">
-                        <img class="image" src="<?php echo $donnees{'image'}; ?>">
+                        <img class="image" src="<?php echo $donneesTypeR{'image'}; ?>">
                     </div>
                     <div class="infos-pokemon col-9">
-                        <h4><?php echo $donnees{'id'} . " " . $donnees{'nom'}; ?></h4>
-
-                        <h5 class="<?php echo $donnees{'type1'}?>"><?php echo $donnees{'type1'};?></h5>
-                        <h5 class="<?php echo $donnees{'type2'}?>"><?php echo $donnees{'type2'};?></h5>
-
+                        <h4><?php echo $donneesTypeR{'id'} . " " . $donneesTypeR{'nom'}; ?></h4>
+                        <h5 class="<?php echo $donneesTypeR{'type1'}?>"><?php echo $donneesTypeR{'type1'};?></h5>
+                        <h5 class="<?php echo $donneesTypeR{'type2'}?>"><?php echo $donneesTypeR{'type2'};?></h5>
                         <div class="description-pokemon">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem dolorem est exercitationem nemo quaerat reiciendis reprehenderit similique totam? Adipisci alias blanditiis deleniti eligendi exercitationem illum ipsum quam, reiciendis. Natus, veniam.</div>
                     </div>
-                </div>
+                    </div>
                 </br>
             <? } ?>
             <!-- bloc pokemon fin -->

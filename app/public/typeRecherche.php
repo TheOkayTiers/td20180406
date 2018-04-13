@@ -46,10 +46,15 @@ $typeR = $db->query("SELECT DISTINCT * FROM pokemon WHERE type1 = '".$_GET['type
                     <li class="nav-item">
                         <a class="nav-link" href="pokedex.php">Pokédex</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
-                    </li>
                 </ul>
+                    <div class="recherche">
+                        <form action="recherche.php">
+                            <label for="fname">Votre recherche :</label>
+                            <input type="text" name="recherche" placeholder="Rechercher...">
+                            </br>
+                            <input class="boutonvalider" type="submit" value="Valider">
+                        </form>
+                    </div>
             </div>
         </nav>
     </header>

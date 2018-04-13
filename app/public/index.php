@@ -8,7 +8,6 @@ try {
 }
 $reponse = $db->query("SELECT * FROM pokemon;");
 $diftype = $db->query("SELECT DISTINCT type1 FROM pokemon;");
-
 ?>
 <!doctype html>
 <html lang="en">
@@ -46,10 +45,15 @@ $diftype = $db->query("SELECT DISTINCT type1 FROM pokemon;");
                     <li class="nav-item">
                         <a class="nav-link" href="pokedex.php">Pokédex</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
-                    </li>
                 </ul>
+                <div class="recherche">
+                    <form action="recherche.php">
+                        <label for="fname">Votre recherche :</label>
+                        <input type="text" name="recherche" placeholder="Rechercher...">
+                        </br>
+                        <input class="boutonvalider" type="submit" value="Valider">
+                    </form>
+                </div>
             </div>
         </nav>
     </header>

@@ -111,3 +111,21 @@ a.lien{
 .Dragon {
     color : darkblue;
 }
+.recherche{
+    background-color: #FFC803;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #3269AC;
+    font-weight:bold;
+    width: 80%;
+    margin : 10%;
+}
+.boutonvalider{
+    background-color: #FFC803;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #3269AC;
+    font-weight:bold;
+    width: 80%;
+    margin : 10%;
+}
