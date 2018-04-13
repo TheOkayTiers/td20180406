@@ -29,7 +29,7 @@ $diftype = $db->query("SELECT DISTINCT type1 FROM pokemon;");
         <nav class="navbar navbar-expand-lg">
             <div class="bar-brand">
                 <img class="logo" src="https://res.cloudinary.com/teepublic/image/private/s--sK3U3V-j--/t_Preview/b_rgb:191919,c_limit,f_jpg,h_630,q_90,w_630/v1466903071/production/designs/561125_1.jpg">
-                <img class="brand" src="https://boraarat.com/wp-content/uploads/2016/07/Pokemon-Go-Rehberi-1600x500.png">
+                <img class="brand" src="International_Pokémon_logo.svg.png">
                 <img class="logo" src="https://res.cloudinary.com/teepublic/image/private/s--sK3U3V-j--/t_Preview/b_rgb:191919,c_limit,f_jpg,h_630,q_90,w_630/v1466903071/production/designs/561125_1.jpg">
             </div>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -38,7 +38,7 @@ $diftype = $db->query("SELECT DISTINCT type1 FROM pokemon;");
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item active">
-                        <a class="nav-link" href="index.php">Accueil <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="index.php">Accueil<span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Infos</a>
@@ -59,7 +59,7 @@ $diftype = $db->query("SELECT DISTINCT type1 FROM pokemon;");
             <?php while ($donnees = $diftype->fetch()) {?>
                 <div class="<?php echo $donnees{'type1'}?>">
                     <button class="nav-item">
-                        <a href="<?php echo $donnees{'type1'}?>.php">
+                        <a class="lien" href="typeRecherche.php?type=<?php echo $donnees{'type1'}?>">
                             <div class="<?php echo $donnees{'type1'}?>"><?php echo $donnees{'type1'}?></div>
                         </a>
                     </button>
@@ -68,10 +68,12 @@ $diftype = $db->query("SELECT DISTINCT type1 FROM pokemon;");
             <!-- bloc type gauche fin -->
         </div>
         <div class="col-9">
+            <div class="paragraphe">
             </br>
             La série de jeux vidéo Pokémon est un ensemble de jeux vidéo de rôle basé sur la franchise japonaise Pokémon. Elle débute le 27 février 1996 au Japon avec la sortie des jeux Pocket Monsters Vert et Rouge. Le duo de jeux y rencontra un tel succès qu'il fut décliné successivement en deux autres versions (version bleue et version jaune), puis traduit à travers le monde. Au total, le duo de jeux se vendit à plus de 31 millions d'exemplaires, ce qui en fit en 1999, la seconde meilleure vente de jeux vidéo. Grâce à ce nombre record de vente, la Pokémania était lancée.
             Tandis que le développeur Game Freak se voyait concevoir Pokémon jusqu'à la seconde génération comprenant Pokémon Or, Argent et Cristal au début des années 2000, l'équipe continua. Dans les jeux principaux sur console portable de Nintendo, Pokémon Rubis, Saphir et Émeraude sorti en 2002, suivi par Pokémon Diamant et Perle en 2006, Pokémon Noir et Blanc en 2010, Pokémon Noir 2 et Blanc 2 en 2012, Pokémon X et Y en 2013, Pokémon Soleil et Lune en 2016 et Pokémon Ultra-Soleil et Ultra-Lune en 2017. Trois rééditions sont également sorties en 2004, 2009 et 2014 et se nomment respectivement Pokémon Rouge Feu et Vert Feuille, Pokémon Or HeartGold et Argent SoulSilver et Pokémon Rubis Oméga et Saphir Alpha.
             Il s'agit de l'une des séries les plus prolifique de tous les temps en termes de vente, s'étant écoulé à plus de 215 millions d'exemplaires en octobre 2010 et en comptant les ventes des versions noire et blanche de la série, sorties fin 2010 au Japon et début 2011 dans le reste du monde.
+            </div>
         </div>
     </div>
     <footer>

@@ -3,6 +3,7 @@ footer {
     color: #fff;
     margin-top: 20px;
     padding:10px 30px 10px 30px;
+    text-justify: auto;
 }
 body{
     background-color: #ffb47f;
@@ -17,6 +18,9 @@ body{
 header{
     background-color: #ffb47f !important;
 }
+a.lien{
+    text-decoration: none;
+}
 .nav-item{
  background-color: #FFC803;
     margin-left: 2%;
@@ -26,6 +30,7 @@ header{
     font-weight:bold;
     width: 80%;
     margin: 2%;
+    text-decoration: none;
 }
 .bar-brand{
     background-color: #191919;
@@ -44,6 +49,9 @@ header{
 .fiche-pokemon{
     height: auto;
     width: auto;
+}
+.paragraphe{
+    text-justify: newspaper;
 }
 .image{
     height : auto;

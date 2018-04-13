@@ -29,7 +29,7 @@ $diftype = $db->query("SELECT DISTINCT type1 FROM pokemon;");
         <nav class="navbar navbar-expand-lg">
             <div class="bar-brand">
                 <img class="logo" src="https://res.cloudinary.com/teepublic/image/private/s--sK3U3V-j--/t_Preview/b_rgb:191919,c_limit,f_jpg,h_630,q_90,w_630/v1466903071/production/designs/561125_1.jpg">
-                <img class="brand" src="https://boraarat.com/wp-content/uploads/2016/07/Pokemon-Go-Rehberi-1600x500.png">
+                <img class="brand" src="International_Pokémon_logo.svg.png">
                 <img class="logo" src="https://res.cloudinary.com/teepublic/image/private/s--sK3U3V-j--/t_Preview/b_rgb:191919,c_limit,f_jpg,h_630,q_90,w_630/v1466903071/production/designs/561125_1.jpg">
             </div>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">

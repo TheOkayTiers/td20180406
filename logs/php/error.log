@@ -2221,3 +2221,691 @@ Stack trace:
 Stack trace:
 #0 {main}
   thrown in /app/public/base-pokemon.php on line 11
+[13-Apr-2018 05:49:48 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /app/public/base-pokemon.php:11
+Stack trace:
+#0 {main}
+  thrown in /app/public/base-pokemon.php on line 11
+[13-Apr-2018 05:50:23 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /app/public/base-pokemon.php:11
+Stack trace:
+#0 {main}
+  thrown in /app/public/base-pokemon.php on line 11
+[13-Apr-2018 05:50:28 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /app/public/base-pokemon.php:11
+Stack trace:
+#0 {main}
+  thrown in /app/public/base-pokemon.php on line 11
+[13-Apr-2018 05:50:33 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /app/public/base-pokemon.php:11
+Stack trace:
+#0 {main}
+  thrown in /app/public/base-pokemon.php on line 11
+[13-Apr-2018 05:51:19 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /app/public/base-pokemon.php:11
+Stack trace:
+#0 {main}
+  thrown in /app/public/base-pokemon.php on line 11
+[13-Apr-2018 05:51:38 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /app/public/base-pokemon.php:11
+Stack trace:
+#0 {main}
+  thrown in /app/public/base-pokemon.php on line 11
+[13-Apr-2018 05:51:38 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /app/public/base-pokemon.php:11
+Stack trace:
+#0 {main}
+  thrown in /app/public/base-pokemon.php on line 11
+[13-Apr-2018 05:51:56 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /app/public/base-pokemon.php:11
+Stack trace:
+#0 {main}
+  thrown in /app/public/base-pokemon.php on line 11
+[13-Apr-2018 05:54:34 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /app/public/base-pokemon.php:11
+Stack trace:
+#0 {main}
+  thrown in /app/public/base-pokemon.php on line 11
+[13-Apr-2018 05:54:40 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /app/public/base-pokemon.php:11
+Stack trace:
+#0 {main}
+  thrown in /app/public/base-pokemon.php on line 11
+[13-Apr-2018 05:55:08 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /app/public/base-pokemon.php:11
+Stack trace:
+#0 {main}
+  thrown in /app/public/base-pokemon.php on line 11
+[13-Apr-2018 05:55:12 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /app/public/base-pokemon.php:11
+Stack trace:
+#0 {main}
+  thrown in /app/public/base-pokemon.php on line 11
+[13-Apr-2018 05:55:15 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /app/public/base-pokemon.php:11
+Stack trace:
+#0 {main}
+  thrown in /app/public/base-pokemon.php on line 11
+[13-Apr-2018 05:56:21 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /app/public/base-pokemon.php:11
+Stack trace:
+#0 {main}
+  thrown in /app/public/base-pokemon.php on line 11
+[13-Apr-2018 05:56:29 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /app/public/base-pokemon.php:11
+Stack trace:
+#0 {main}
+  thrown in /app/public/base-pokemon.php on line 11
+[13-Apr-2018 05:57:34 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /app/public/base-pokemon.php:11
+Stack trace:
+#0 {main}
+  thrown in /app/public/base-pokemon.php on line 11
+[13-Apr-2018 05:57:45 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /app/public/base-pokemon.php:11
+Stack trace:
+#0 {main}
+  thrown in /app/public/base-pokemon.php on line 11
+[13-Apr-2018 05:57:50 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /app/public/base-pokemon.php:11
+Stack trace:
+#0 {main}
+  thrown in /app/public/base-pokemon.php on line 11
+[13-Apr-2018 06:00:34 UTC] PHP Notice:  Undefined variable: compteur in /app/public/Normal.php on line 91
+[13-Apr-2018 06:00:34 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /app/public/base-pokemon.php:11
+Stack trace:
+#0 {main}
+  thrown in /app/public/base-pokemon.php on line 11
+[13-Apr-2018 07:04:04 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /app/public/base-pokemon.php:11
+Stack trace:
+#0 {main}
+  thrown in /app/public/base-pokemon.php on line 11
+[13-Apr-2018 07:10:05 UTC] PHP Notice:  Undefined variable: compteur in /app/public/Normal.php on line 91
+[13-Apr-2018 07:10:05 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /app/public/base-pokemon.php:11
+Stack trace:
+#0 {main}
+  thrown in /app/public/base-pokemon.php on line 11
+[13-Apr-2018 07:15:27 UTC] PHP Notice:  Undefined variable: compteur in /app/public/Normal.php on line 91
+[13-Apr-2018 07:15:27 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /app/public/base-pokemon.php:11
+Stack trace:
+#0 {main}
+  thrown in /app/public/base-pokemon.php on line 11
+[13-Apr-2018 07:15:29 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /app/public/base-pokemon.php:11
+Stack trace:
+#0 {main}
+  thrown in /app/public/base-pokemon.php on line 11
+[13-Apr-2018 07:18:39 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /app/public/base-pokemon.php:11
+Stack trace:
+#0 {main}
+  thrown in /app/public/base-pokemon.php on line 11
+[13-Apr-2018 07:25:42 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /app/public/base-pokemon.php:11
+Stack trace:
+#0 {main}
+  thrown in /app/public/base-pokemon.php on line 11
+[13-Apr-2018 07:26:04 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /app/public/base-pokemon.php:11
+Stack trace:
+#0 {main}
+  thrown in /app/public/base-pokemon.php on line 11
+[13-Apr-2018 07:27:45 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /app/public/base-pokemon.php:11
+Stack trace:
+#0 {main}
+  thrown in /app/public/base-pokemon.php on line 11
+[13-Apr-2018 07:34:52 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /app/public/base-pokemon.php:11
+Stack trace:
+#0 {main}
+  thrown in /app/public/base-pokemon.php on line 11
+[13-Apr-2018 07:35:12 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /app/public/base-pokemon.php:11
+Stack trace:
+#0 {main}
+  thrown in /app/public/base-pokemon.php on line 11
+[13-Apr-2018 07:35:39 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /app/public/base-pokemon.php:11
+Stack trace:
+#0 {main}
+  thrown in /app/public/base-pokemon.php on line 11
+[13-Apr-2018 07:35:42 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /app/public/base-pokemon.php:11
+Stack trace:
+#0 {main}
+  thrown in /app/public/base-pokemon.php on line 11
+[13-Apr-2018 07:36:25 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /app/public/base-pokemon.php:11
+Stack trace:
+#0 {main}
+  thrown in /app/public/base-pokemon.php on line 11
+[13-Apr-2018 07:36:29 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /app/public/base-pokemon.php:11
+Stack trace:
+#0 {main}
+  thrown in /app/public/base-pokemon.php on line 11
+[13-Apr-2018 07:41:24 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /app/public/base-pokemon.php:11
+Stack trace:
+#0 {main}
+  thrown in /app/public/base-pokemon.php on line 11
+[13-Apr-2018 07:41:25 UTC] PHP Notice:  Undefined index: type in /app/public/typeRecherche.php on line 67
+[13-Apr-2018 07:41:25 UTC] PHP Notice:  Undefined index: type in /app/public/typeRecherche.php on line 67
+[13-Apr-2018 07:41:25 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /app/public/base-pokemon.php:11
+Stack trace:
+#0 {main}
+  thrown in /app/public/base-pokemon.php on line 11
+[13-Apr-2018 07:41:49 UTC] PHP Notice:  Undefined index: type in /app/public/typeRecherche.php on line 67
+[13-Apr-2018 07:41:49 UTC] PHP Notice:  Undefined index: type in /app/public/typeRecherche.php on line 67
+[13-Apr-2018 07:41:49 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /app/public/base-pokemon.php:11
+Stack trace:
+#0 {main}
+  thrown in /app/public/base-pokemon.php on line 11
+[13-Apr-2018 07:44:00 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /app/public/base-pokemon.php:11
+Stack trace:
+#0 {main}
+  thrown in /app/public/base-pokemon.php on line 11
+[13-Apr-2018 07:44:02 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /app/public/base-pokemon.php:11
+Stack trace:
+#0 {main}
+  thrown in /app/public/base-pokemon.php on line 11
+[13-Apr-2018 07:44:04 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /app/public/base-pokemon.php:11
+Stack trace:
+#0 {main}
+  thrown in /app/public/base-pokemon.php on line 11
+[13-Apr-2018 07:44:05 UTC] PHP Notice:  Undefined index: type in /app/public/typeRecherche.php on line 67
+[13-Apr-2018 07:44:05 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /app/public/base-pokemon.php:11
+Stack trace:
+#0 {main}
+  thrown in /app/public/base-pokemon.php on line 11
+[13-Apr-2018 07:44:24 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /app/public/base-pokemon.php:11
+Stack trace:
+#0 {main}
+  thrown in /app/public/base-pokemon.php on line 11
+[13-Apr-2018 07:44:25 UTC] PHP Notice:  Undefined index: type in /app/public/typeRecherche.php on line 67
+[13-Apr-2018 07:44:25 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /app/public/base-pokemon.php:11
+Stack trace:
+#0 {main}
+  thrown in /app/public/base-pokemon.php on line 11
+[13-Apr-2018 07:44:54 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /app/public/base-pokemon.php:11
+Stack trace:
+#0 {main}
+  thrown in /app/public/base-pokemon.php on line 11
+[13-Apr-2018 07:44:55 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /app/public/base-pokemon.php:11
+Stack trace:
+#0 {main}
+  thrown in /app/public/base-pokemon.php on line 11
+[13-Apr-2018 07:44:57 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /app/public/base-pokemon.php:11
+Stack trace:
+#0 {main}
+  thrown in /app/public/base-pokemon.php on line 11
+[13-Apr-2018 07:45:00 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /app/public/base-pokemon.php:11
+Stack trace:
+#0 {main}
+  thrown in /app/public/base-pokemon.php on line 11
+[13-Apr-2018 07:45:00 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /app/public/base-pokemon.php:11
+Stack trace:
+#0 {main}
+  thrown in /app/public/base-pokemon.php on line 11
+[13-Apr-2018 07:45:01 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /app/public/base-pokemon.php:11
+Stack trace:
+#0 {main}
+  thrown in /app/public/base-pokemon.php on line 11
+[13-Apr-2018 07:45:01 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /app/public/base-pokemon.php:11
+Stack trace:
+#0 {main}
+  thrown in /app/public/base-pokemon.php on line 11
+[13-Apr-2018 07:45:01 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /app/public/base-pokemon.php:11
+Stack trace:
+#0 {main}
+  thrown in /app/public/base-pokemon.php on line 11
+[13-Apr-2018 07:45:02 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /app/public/base-pokemon.php:11
+Stack trace:
+#0 {main}
+  thrown in /app/public/base-pokemon.php on line 11
+[13-Apr-2018 07:45:03 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /app/public/base-pokemon.php:11
+Stack trace:
+#0 {main}
+  thrown in /app/public/base-pokemon.php on line 11
+[13-Apr-2018 07:45:04 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /app/public/base-pokemon.php:11
+Stack trace:
+#0 {main}
+  thrown in /app/public/base-pokemon.php on line 11
+[13-Apr-2018 07:45:05 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /app/public/base-pokemon.php:11
+Stack trace:
+#0 {main}
+  thrown in /app/public/base-pokemon.php on line 11
+[13-Apr-2018 07:45:08 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /app/public/base-pokemon.php:11
+Stack trace:
+#0 {main}
+  thrown in /app/public/base-pokemon.php on line 11
+[13-Apr-2018 07:45:09 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /app/public/base-pokemon.php:11
+Stack trace:
+#0 {main}
+  thrown in /app/public/base-pokemon.php on line 11
+[13-Apr-2018 07:45:10 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /app/public/base-pokemon.php:11
+Stack trace:
+#0 {main}
+  thrown in /app/public/base-pokemon.php on line 11
+[13-Apr-2018 07:45:11 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /app/public/base-pokemon.php:11
+Stack trace:
+#0 {main}
+  thrown in /app/public/base-pokemon.php on line 11
+[13-Apr-2018 07:45:12 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /app/public/base-pokemon.php:11
+Stack trace:
+#0 {main}
+  thrown in /app/public/base-pokemon.php on line 11
+[13-Apr-2018 07:45:49 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /app/public/base-pokemon.php:11
+Stack trace:
+#0 {main}
+  thrown in /app/public/base-pokemon.php on line 11
+[13-Apr-2018 07:45:49 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /app/public/base-pokemon.php:11
+Stack trace:
+#0 {main}
+  thrown in /app/public/base-pokemon.php on line 11
+[13-Apr-2018 07:45:51 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /app/public/base-pokemon.php:11
+Stack trace:
+#0 {main}
+  thrown in /app/public/base-pokemon.php on line 11
+[13-Apr-2018 07:45:52 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /app/public/base-pokemon.php:11
+Stack trace:
+#0 {main}
+  thrown in /app/public/base-pokemon.php on line 11
+[13-Apr-2018 07:45:53 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /app/public/base-pokemon.php:11
+Stack trace:
+#0 {main}
+  thrown in /app/public/base-pokemon.php on line 11
+[13-Apr-2018 07:45:57 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /app/public/base-pokemon.php:11
+Stack trace:
+#0 {main}
+  thrown in /app/public/base-pokemon.php on line 11
+[13-Apr-2018 07:47:33 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /app/public/base-pokemon.php:11
+Stack trace:
+#0 {main}
+  thrown in /app/public/base-pokemon.php on line 11
+[13-Apr-2018 07:47:34 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /app/public/base-pokemon.php:11
+Stack trace:
+#0 {main}
+  thrown in /app/public/base-pokemon.php on line 11
+[13-Apr-2018 07:47:35 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /app/public/base-pokemon.php:11
+Stack trace:
+#0 {main}
+  thrown in /app/public/base-pokemon.php on line 11
+[13-Apr-2018 07:47:35 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /app/public/base-pokemon.php:11
+Stack trace:
+#0 {main}
+  thrown in /app/public/base-pokemon.php on line 11
+[13-Apr-2018 07:48:05 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /app/public/base-pokemon.php:11
+Stack trace:
+#0 {main}
+  thrown in /app/public/base-pokemon.php on line 11
+[13-Apr-2018 07:48:06 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /app/public/base-pokemon.php:11
+Stack trace:
+#0 {main}
+  thrown in /app/public/base-pokemon.php on line 11
+[13-Apr-2018 07:48:07 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /app/public/base-pokemon.php:11
+Stack trace:
+#0 {main}
+  thrown in /app/public/base-pokemon.php on line 11
+[13-Apr-2018 07:48:07 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /app/public/base-pokemon.php:11
+Stack trace:
+#0 {main}
+  thrown in /app/public/base-pokemon.php on line 11
+[13-Apr-2018 07:48:07 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /app/public/base-pokemon.php:11
+Stack trace:
+#0 {main}
+  thrown in /app/public/base-pokemon.php on line 11
+[13-Apr-2018 07:48:07 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /app/public/base-pokemon.php:11
+Stack trace:
+#0 {main}
+  thrown in /app/public/base-pokemon.php on line 11
+[13-Apr-2018 07:48:08 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /app/public/base-pokemon.php:11
+Stack trace:
+#0 {main}
+  thrown in /app/public/base-pokemon.php on line 11
+[13-Apr-2018 07:49:45 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /app/public/base-pokemon.php:11
+Stack trace:
+#0 {main}
+  thrown in /app/public/base-pokemon.php on line 11
+[13-Apr-2018 07:54:46 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /app/public/base-pokemon.php:11
+Stack trace:
+#0 {main}
+  thrown in /app/public/base-pokemon.php on line 11
+[13-Apr-2018 07:56:43 UTC] PHP Notice:  Undefined index: type in /app/public/typeRecherche.php on line 67
+[13-Apr-2018 07:56:43 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /app/public/base-pokemon.php:11
+Stack trace:
+#0 {main}
+  thrown in /app/public/base-pokemon.php on line 11
+[13-Apr-2018 07:56:44 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /app/public/base-pokemon.php:11
+Stack trace:
+#0 {main}
+  thrown in /app/public/base-pokemon.php on line 11
+[13-Apr-2018 07:56:50 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /app/public/base-pokemon.php:11
+Stack trace:
+#0 {main}
+  thrown in /app/public/base-pokemon.php on line 11
+[13-Apr-2018 07:56:52 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /app/public/base-pokemon.php:11
+Stack trace:
+#0 {main}
+  thrown in /app/public/base-pokemon.php on line 11
+[13-Apr-2018 07:57:06 UTC] PHP Notice:  Undefined index: type in /app/public/typeRecherche.php on line 67
+[13-Apr-2018 07:57:06 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /app/public/base-pokemon.php:11
+Stack trace:
+#0 {main}
+  thrown in /app/public/base-pokemon.php on line 11
+[13-Apr-2018 07:57:09 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /app/public/base-pokemon.php:11
+Stack trace:
+#0 {main}
+  thrown in /app/public/base-pokemon.php on line 11
+[13-Apr-2018 07:57:27 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /app/public/base-pokemon.php:11
+Stack trace:
+#0 {main}
+  thrown in /app/public/base-pokemon.php on line 11
+[13-Apr-2018 07:57:30 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /app/public/base-pokemon.php:11
+Stack trace:
+#0 {main}
+  thrown in /app/public/base-pokemon.php on line 11
+[13-Apr-2018 07:57:31 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /app/public/base-pokemon.php:11
+Stack trace:
+#0 {main}
+  thrown in /app/public/base-pokemon.php on line 11
+[13-Apr-2018 07:58:16 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /app/public/base-pokemon.php:11
+Stack trace:
+#0 {main}
+  thrown in /app/public/base-pokemon.php on line 11
+[13-Apr-2018 08:12:30 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /app/public/base-pokemon.php:11
+Stack trace:
+#0 {main}
+  thrown in /app/public/base-pokemon.php on line 11
+[13-Apr-2018 08:12:33 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /app/public/base-pokemon.php:11
+Stack trace:
+#0 {main}
+  thrown in /app/public/base-pokemon.php on line 11
+[13-Apr-2018 08:13:04 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /app/public/base-pokemon.php:11
+Stack trace:
+#0 {main}
+  thrown in /app/public/base-pokemon.php on line 11
+[13-Apr-2018 08:13:25 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /app/public/base-pokemon.php:11
+Stack trace:
+#0 {main}
+  thrown in /app/public/base-pokemon.php on line 11
+[13-Apr-2018 08:13:27 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /app/public/base-pokemon.php:11
+Stack trace:
+#0 {main}
+  thrown in /app/public/base-pokemon.php on line 11
+[13-Apr-2018 08:15:14 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /app/public/base-pokemon.php:11
+Stack trace:
+#0 {main}
+  thrown in /app/public/base-pokemon.php on line 11
+[13-Apr-2018 08:15:16 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /app/public/base-pokemon.php:11
+Stack trace:
+#0 {main}
+  thrown in /app/public/base-pokemon.php on line 11
+[13-Apr-2018 08:15:17 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /app/public/base-pokemon.php:11
+Stack trace:
+#0 {main}
+  thrown in /app/public/base-pokemon.php on line 11
+[13-Apr-2018 08:15:22 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /app/public/base-pokemon.php:11
+Stack trace:
+#0 {main}
+  thrown in /app/public/base-pokemon.php on line 11
+[13-Apr-2018 08:15:24 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /app/public/base-pokemon.php:11
+Stack trace:
+#0 {main}
+  thrown in /app/public/base-pokemon.php on line 11
+[13-Apr-2018 08:15:46 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /app/public/base-pokemon.php:11
+Stack trace:
+#0 {main}
+  thrown in /app/public/base-pokemon.php on line 11
+[13-Apr-2018 08:15:49 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /app/public/base-pokemon.php:11
+Stack trace:
+#0 {main}
+  thrown in /app/public/base-pokemon.php on line 11
+[13-Apr-2018 08:35:20 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on boolean in /app/public/typeRecherche.php:68
+Stack trace:
+#0 {main}
+  thrown in /app/public/typeRecherche.php on line 68
+[13-Apr-2018 08:35:20 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /app/public/base-pokemon.php:11
+Stack trace:
+#0 {main}
+  thrown in /app/public/base-pokemon.php on line 11
+[13-Apr-2018 08:35:25 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /app/public/base-pokemon.php:11
+Stack trace:
+#0 {main}
+  thrown in /app/public/base-pokemon.php on line 11
+[13-Apr-2018 08:36:06 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /app/public/base-pokemon.php:11
+Stack trace:
+#0 {main}
+  thrown in /app/public/base-pokemon.php on line 11
+[13-Apr-2018 08:36:07 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on boolean in /app/public/typeRecherche.php:68
+Stack trace:
+#0 {main}
+  thrown in /app/public/typeRecherche.php on line 68
+[13-Apr-2018 08:36:08 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /app/public/base-pokemon.php:11
+Stack trace:
+#0 {main}
+  thrown in /app/public/base-pokemon.php on line 11
+[13-Apr-2018 08:36:10 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on boolean in /app/public/typeRecherche.php:68
+Stack trace:
+#0 {main}
+  thrown in /app/public/typeRecherche.php on line 68
+[13-Apr-2018 08:36:10 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /app/public/base-pokemon.php:11
+Stack trace:
+#0 {main}
+  thrown in /app/public/base-pokemon.php on line 11
+[13-Apr-2018 10:04:10 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /app/public/base-pokemon.php:11
+Stack trace:
+#0 {main}
+  thrown in /app/public/base-pokemon.php on line 11
+[13-Apr-2018 10:04:17 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on boolean in /app/public/typeRecherche.php:68
+Stack trace:
+#0 {main}
+  thrown in /app/public/typeRecherche.php on line 68
+[13-Apr-2018 10:04:17 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /app/public/base-pokemon.php:11
+Stack trace:
+#0 {main}
+  thrown in /app/public/base-pokemon.php on line 11
+[13-Apr-2018 10:09:06 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /app/public/base-pokemon.php:11
+Stack trace:
+#0 {main}
+  thrown in /app/public/base-pokemon.php on line 11
+[13-Apr-2018 10:09:08 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on boolean in /app/public/typeRecherche.php:68
+Stack trace:
+#0 {main}
+  thrown in /app/public/typeRecherche.php on line 68
+[13-Apr-2018 10:09:08 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /app/public/base-pokemon.php:11
+Stack trace:
+#0 {main}
+  thrown in /app/public/base-pokemon.php on line 11
+[13-Apr-2018 10:09:55 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on boolean in /app/public/typeRecherche.php:68
+Stack trace:
+#0 {main}
+  thrown in /app/public/typeRecherche.php on line 68
+[13-Apr-2018 10:09:55 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /app/public/base-pokemon.php:11
+Stack trace:
+#0 {main}
+  thrown in /app/public/base-pokemon.php on line 11
+[13-Apr-2018 10:09:58 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /app/public/base-pokemon.php:11
+Stack trace:
+#0 {main}
+  thrown in /app/public/base-pokemon.php on line 11
+[13-Apr-2018 10:09:59 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch() on boolean in /app/public/typeRecherche.php:68
+Stack trace:
+#0 {main}
+  thrown in /app/public/typeRecherche.php on line 68
+[13-Apr-2018 10:09:59 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /app/public/base-pokemon.php:11
+Stack trace:
+#0 {main}
+  thrown in /app/public/base-pokemon.php on line 11
+[13-Apr-2018 10:12:30 UTC] PHP Notice:  Undefined index: image in /app/public/typeRecherche.php on line 72
+[13-Apr-2018 10:12:30 UTC] PHP Notice:  Undefined index: id in /app/public/typeRecherche.php on line 75
+[13-Apr-2018 10:12:30 UTC] PHP Notice:  Undefined index: nom in /app/public/typeRecherche.php on line 75
+[13-Apr-2018 10:12:30 UTC] PHP Notice:  Undefined index: type2 in /app/public/typeRecherche.php on line 77
+[13-Apr-2018 10:12:30 UTC] PHP Notice:  Undefined index: type2 in /app/public/typeRecherche.php on line 77
+[13-Apr-2018 10:12:30 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /app/public/base-pokemon.php:11
+Stack trace:
+#0 {main}
+  thrown in /app/public/base-pokemon.php on line 11
+[13-Apr-2018 10:16:46 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /app/public/base-pokemon.php:11
+Stack trace:
+#0 {main}
+  thrown in /app/public/base-pokemon.php on line 11
+[13-Apr-2018 10:16:48 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /app/public/base-pokemon.php:11
+Stack trace:
+#0 {main}
+  thrown in /app/public/base-pokemon.php on line 11
+[13-Apr-2018 10:16:50 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /app/public/base-pokemon.php:11
+Stack trace:
+#0 {main}
+  thrown in /app/public/base-pokemon.php on line 11
+[13-Apr-2018 10:16:52 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /app/public/base-pokemon.php:11
+Stack trace:
+#0 {main}
+  thrown in /app/public/base-pokemon.php on line 11
+[13-Apr-2018 10:16:53 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /app/public/base-pokemon.php:11
+Stack trace:
+#0 {main}
+  thrown in /app/public/base-pokemon.php on line 11
+[13-Apr-2018 10:16:56 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /app/public/base-pokemon.php:11
+Stack trace:
+#0 {main}
+  thrown in /app/public/base-pokemon.php on line 11
+[13-Apr-2018 10:17:37 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /app/public/base-pokemon.php:11
+Stack trace:
+#0 {main}
+  thrown in /app/public/base-pokemon.php on line 11
+[13-Apr-2018 10:18:10 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type PDOStatement as array in /app/public/typeRecherche.php:72
+Stack trace:
+#0 {main}
+  thrown in /app/public/typeRecherche.php on line 72
+[13-Apr-2018 10:18:11 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /app/public/base-pokemon.php:11
+Stack trace:
+#0 {main}
+  thrown in /app/public/base-pokemon.php on line 11
+[13-Apr-2018 10:18:13 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type PDOStatement as array in /app/public/typeRecherche.php:72
+Stack trace:
+#0 {main}
+  thrown in /app/public/typeRecherche.php on line 72
+[13-Apr-2018 10:18:13 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /app/public/base-pokemon.php:11
+Stack trace:
+#0 {main}
+  thrown in /app/public/base-pokemon.php on line 11
+[13-Apr-2018 10:18:18 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /app/public/base-pokemon.php:11
+Stack trace:
+#0 {main}
+  thrown in /app/public/base-pokemon.php on line 11
+[13-Apr-2018 10:18:19 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type PDOStatement as array in /app/public/typeRecherche.php:72
+Stack trace:
+#0 {main}
+  thrown in /app/public/typeRecherche.php on line 72
+[13-Apr-2018 10:18:19 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /app/public/base-pokemon.php:11
+Stack trace:
+#0 {main}
+  thrown in /app/public/base-pokemon.php on line 11
+[13-Apr-2018 10:18:20 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /app/public/base-pokemon.php:11
+Stack trace:
+#0 {main}
+  thrown in /app/public/base-pokemon.php on line 11
+[13-Apr-2018 10:18:21 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type PDOStatement as array in /app/public/typeRecherche.php:72
+Stack trace:
+#0 {main}
+  thrown in /app/public/typeRecherche.php on line 72
+[13-Apr-2018 10:18:21 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /app/public/base-pokemon.php:11
+Stack trace:
+#0 {main}
+  thrown in /app/public/base-pokemon.php on line 11
+[13-Apr-2018 10:18:43 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /app/public/base-pokemon.php:11
+Stack trace:
+#0 {main}
+  thrown in /app/public/base-pokemon.php on line 11
+[13-Apr-2018 10:19:11 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /app/public/base-pokemon.php:11
+Stack trace:
+#0 {main}
+  thrown in /app/public/base-pokemon.php on line 11
+[13-Apr-2018 10:19:23 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /app/public/base-pokemon.php:11
+Stack trace:
+#0 {main}
+  thrown in /app/public/base-pokemon.php on line 11
+[13-Apr-2018 10:19:54 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /app/public/base-pokemon.php:11
+Stack trace:
+#0 {main}
+  thrown in /app/public/base-pokemon.php on line 11
+[13-Apr-2018 10:19:57 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /app/public/base-pokemon.php:11
+Stack trace:
+#0 {main}
+  thrown in /app/public/base-pokemon.php on line 11
+[13-Apr-2018 10:19:58 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /app/public/base-pokemon.php:11
+Stack trace:
+#0 {main}
+  thrown in /app/public/base-pokemon.php on line 11
+[13-Apr-2018 10:20:00 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /app/public/base-pokemon.php:11
+Stack trace:
+#0 {main}
+  thrown in /app/public/base-pokemon.php on line 11
+[13-Apr-2018 10:20:01 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /app/public/base-pokemon.php:11
+Stack trace:
+#0 {main}
+  thrown in /app/public/base-pokemon.php on line 11
+[13-Apr-2018 10:31:22 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /app/public/base-pokemon.php:11
+Stack trace:
+#0 {main}
+  thrown in /app/public/base-pokemon.php on line 11
+[13-Apr-2018 10:38:27 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /app/public/base-pokemon.php:11
+Stack trace:
+#0 {main}
+  thrown in /app/public/base-pokemon.php on line 11
+[13-Apr-2018 10:38:29 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /app/public/base-pokemon.php:11
+Stack trace:
+#0 {main}
+  thrown in /app/public/base-pokemon.php on line 11
+[13-Apr-2018 10:44:00 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /app/public/base-pokemon.php:11
+Stack trace:
+#0 {main}
+  thrown in /app/public/base-pokemon.php on line 11
+[13-Apr-2018 10:44:04 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /app/public/base-pokemon.php:11
+Stack trace:
+#0 {main}
+  thrown in /app/public/base-pokemon.php on line 11
+[13-Apr-2018 10:44:06 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /app/public/base-pokemon.php:11
+Stack trace:
+#0 {main}
+  thrown in /app/public/base-pokemon.php on line 11
+[13-Apr-2018 10:47:15 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /app/public/base-pokemon.php:11
+Stack trace:
+#0 {main}
+  thrown in /app/public/base-pokemon.php on line 11
+[13-Apr-2018 10:49:32 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /app/public/base-pokemon.php:11
+Stack trace:
+#0 {main}
+  thrown in /app/public/base-pokemon.php on line 11
+[13-Apr-2018 10:49:34 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /app/public/base-pokemon.php:11
+Stack trace:
+#0 {main}
+  thrown in /app/public/base-pokemon.php on line 11
+[13-Apr-2018 10:49:34 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /app/public/base-pokemon.php:11
+Stack trace:
+#0 {main}
+  thrown in /app/public/base-pokemon.php on line 11
+[13-Apr-2018 10:49:35 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /app/public/base-pokemon.php:11
+Stack trace:
+#0 {main}
+  thrown in /app/public/base-pokemon.php on line 11
+[13-Apr-2018 10:54:11 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /app/public/base-pokemon.php:11
+Stack trace:
+#0 {main}
+  thrown in /app/public/base-pokemon.php on line 11
+[13-Apr-2018 12:04:43 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /app/public/base-pokemon.php:11
+Stack trace:
+#0 {main}
+  thrown in /app/public/base-pokemon.php on line 11
+[13-Apr-2018 12:05:00 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /app/public/base-pokemon.php:11
+Stack trace:
+#0 {main}
+  thrown in /app/public/base-pokemon.php on line 11
+[13-Apr-2018 12:05:04 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /app/public/base-pokemon.php:11
+Stack trace:
+#0 {main}
+  thrown in /app/public/base-pokemon.php on line 11
+[13-Apr-2018 12:05:08 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /app/public/base-pokemon.php:11
+Stack trace:
+#0 {main}
+  thrown in /app/public/base-pokemon.php on line 11
+[13-Apr-2018 12:05:14 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /app/public/base-pokemon.php:11
+Stack trace:
+#0 {main}
+  thrown in /app/public/base-pokemon.php on line 11
+[13-Apr-2018 12:05:15 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /app/public/base-pokemon.php:11
+Stack trace:
+#0 {main}
+  thrown in /app/public/base-pokemon.php on line 11
+[13-Apr-2018 12:05:57 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /app/public/base-pokemon.php:11
+Stack trace:
+#0 {main}
+  thrown in /app/public/base-pokemon.php on line 11
+[13-Apr-2018 12:06:02 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /app/public/base-pokemon.php:11
+Stack trace:
+#0 {main}
+  thrown in /app/public/base-pokemon.php on line 11
+[13-Apr-2018 12:06:02 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /app/public/base-pokemon.php:11
+Stack trace:
+#0 {main}
+  thrown in /app/public/base-pokemon.php on line 11
+[13-Apr-2018 12:06:03 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /app/public/base-pokemon.php:11
+Stack trace:
+#0 {main}
+  thrown in /app/public/base-pokemon.php on line 11
+[13-Apr-2018 12:07:13 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /app/public/base-pokemon.php:11
+Stack trace:
+#0 {main}
+  thrown in /app/public/base-pokemon.php on line 11

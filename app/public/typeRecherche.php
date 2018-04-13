@@ -21,8 +21,7 @@ try {
 }
 $reponse = $db->query("SELECT * FROM pokemon;");
 $diftype = $db->query("SELECT DISTINCT type1 FROM pokemon;");
-$type = $db->query("SELECT DISTINCT type1 FROM pokemon;");
-
+$typeR = $db->query("SELECT DISTINCT * FROM pokemon WHERE type1 = '".$_GET['type']."' OR type2 = '".$_GET['type']."';");
 ?>
 
 <div class="container">
@@ -30,7 +29,7 @@ $type = $db->query("SELECT DISTINCT type1 FROM pokemon;");
         <nav class="navbar navbar-expand-lg">
             <div class="bar-brand">
                 <img class="logo" src="https://res.cloudinary.com/teepublic/image/private/s--sK3U3V-j--/t_Preview/b_rgb:191919,c_limit,f_jpg,h_630,q_90,w_630/v1466903071/production/designs/561125_1.jpg">
-                <img class="brand" src="https://boraarat.com/wp-content/uploads/2016/07/Pokemon-Go-Rehberi-1600x500.png">
+                <img class="brand" src="International_Pokémon_logo.svg.png">
                 <img class="logo" src="https://res.cloudinary.com/teepublic/image/private/s--sK3U3V-j--/t_Preview/b_rgb:191919,c_limit,f_jpg,h_630,q_90,w_630/v1466903071/production/designs/561125_1.jpg">
             </div>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -56,30 +55,34 @@ $type = $db->query("SELECT DISTINCT type1 FROM pokemon;");
     </header>
     <div class="row">
         <div class="col-3">
+            <!-- bloc type gauche debut -->
             <?php while ($donnees = $diftype->fetch()) {?>
-                <div class="<?php echo $donnees{'type1'}?>"><a href="index.php"><?php echo $donnees{'type1'}?></a></div>
+                <div class="<?php echo $donnees{'type1'}?>">
+                    <button class="nav-item">
+                        <a class="lien" href="typeRecherche.php?type=<?php echo $donnees{'type1'}?>">
+                            <div class="<?php echo $donnees{'type1'}?>"><?php echo $donnees{'type1'}?></div>
+                        </a>
+                    </button>
+                </div>
             <? } ?>
-
+            <!-- bloc type gauche fin -->
         </div>
         <div class="col-9">
             </br>
             <!-- bloc pokemon debut -->
-            <?php echo $_POST["nom"] . $_POST['truc']; ?>
-            <?php while ($donnees = $reponse->fetch()) {?>
+            <?php while ($donneesTypeR = $typeR->fetch()) {?>
 
                 <div class="fiche-pokemon row">
                     <div class="photo-pokemon col-3">
-                        <img class="image" src="<?php echo $donnees{'image'}; ?>">
+                        <img class="image" src="<?php echo $donneesTypeR{'image'}; ?>">
                     </div>
                     <div class="infos-pokemon col-9">
-                        <h4><?php echo $donnees{'id'} . " " . $donnees{'nom'}; ?></h4>
-
-                        <h5 class="<?php echo $donnees{'type1'}?>"><?php echo $donnees{'type1'};?></h5>
-                        <h5 class="<?php echo $donnees{'type2'}?>"><?php echo $donnees{'type2'};?></h5>
-
+                        <h4><?php echo $donneesTypeR{'id'} . " " . $donneesTypeR{'nom'}; ?></h4>
+                        <h5 class="<?php echo $donneesTypeR{'type1'}?>"><?php echo $donneesTypeR{'type1'};?></h5>
+                        <h5 class="<?php echo $donneesTypeR{'type2'}?>"><?php echo $donneesTypeR{'type2'};?></h5>
                         <div class="description-pokemon">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem dolorem est exercitationem nemo quaerat reiciendis reprehenderit similique totam? Adipisci alias blanditiis deleniti eligendi exercitationem illum ipsum quam, reiciendis. Natus, veniam.</div>
                     </div>
-                </div>
+                    </div>
                 </br>
             <? } ?>
             <!-- bloc pokemon fin -->
