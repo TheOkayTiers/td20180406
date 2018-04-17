@@ -6,5 +6,6 @@ CREATE TABLE `pokemon` (
   `nom` varchar(255) NOT NULL,
   `type1` varchar(255) NOT NULL,
   `type2` varchar(255) NOT NULL,
+  `image` varchar(255) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=83 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=152 DEFAULT CHARSET=latin1;
